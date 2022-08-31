@@ -1,3 +1,16 @@
+:root {
+  --main-color: #bbe9bd;
+  --light: #aeccc6;
+  --medium: #9ba6a5;
+  --dark: #757a79;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #frame {
   display: flex;
   align-items: center;
