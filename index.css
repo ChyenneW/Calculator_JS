@@ -45,6 +45,14 @@ body {
   background-color: var(--dark);
 
   box-shadow: inset 3px 2px 3px 1px rgba(46, 46, 46, 0.7);
+
+  text-align: right;
+}
+
+#equation {
+  font-size: 20px;
+  margin-top: 15px;
+  padding: 10px;
 }
 
 #buttons {
