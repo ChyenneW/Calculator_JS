@@ -6,9 +6,12 @@
 }
 
 body {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
+
+  background-color: var(--main-color);
+  text-align: center;
 }
 
 #frame {
@@ -16,7 +19,15 @@ body {
   align-items: center;
   justify-content: center;
 
-  height: 500px;
+  border: 1px solid var(--dark);
+  border-radius: 30px;
+  box-shadow: 12px 12px 2px 1px rgba(113, 113, 246, 0.2);
+
+  height: 355px;
+  width: 330px;
+
+  margin-bottom: 30px;
+  margin-top: 90px;
 }
 
 div {
